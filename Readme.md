@@ -6,5 +6,11 @@
 
 ### Day 1 (30/05/2018)
 
-    - Learnig the basic of HTML tags.
+    - Learned the basic HTML tags.
     - completed the HTML tags and problem set.
+    - completed lesson 1 and lesson 2.
+
+### Day 2 (31/05/2018)
+
+    - Learned about CSS.
+    - completed lesson 3.
