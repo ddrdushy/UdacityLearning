@@ -14,3 +14,8 @@
 
     - Learned about CSS.
     - completed lesson 3.
+
+### Day 3 (01/06/2018)
+
+    - completed the CSS problem set.
+    - HTML and CSS Course completed.
