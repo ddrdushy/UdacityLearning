@@ -19,3 +19,16 @@
 
     - completed the CSS problem set.
     - HTML and CSS Course completed.
+
+## Course -  [Introduction to Python](https://www.udacity.com/course/intro-to-html-and-css--ud001)
+
+### Day 4 (02/016/2018)
+
+    - Started with Python introduction.
+    - learned basics of python.
+        * operatore
+        * data types
+        * string methods
+        * sets
+        * tuples
+        * Dictonary
