@@ -22,7 +22,7 @@
 
 ## Course -  [Introduction to Python](https://www.udacity.com/course/introduction-to-python--ud1110)
 
-### Day 4 (02/016/2018)
+### Day 4 (02/06/2018)
 
 - Started with Python introduction.
 - learned basics of python.
@@ -32,3 +32,8 @@
     - sets
     - tuples
     - Dictonary
+
+### Day 5 (03/06/2018)
+- learned coditional statements.
+    - if
+    - elif
