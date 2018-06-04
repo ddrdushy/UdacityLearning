@@ -26,14 +26,20 @@
 
 - Started with Python introduction.
 - learned basics of python.
-    - operators
-    - data types
-    - string methods
-    - sets
-    - tuples
-    - Dictonary
+  - operators
+  - data types
+  - string methods
+  - sets
+  - tuples
+  - Dictonary
 
 ### Day 5 (03/06/2018)
+
 - learned coditional statements.
-    - if
-    - elif
+  - if
+  - elif
+
+### Day 6 (04/06/2018)
+
+- learned while loop.
+- completed the practice quiz.
