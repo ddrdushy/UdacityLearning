@@ -1,6 +1,6 @@
 # Udacity
 
-## Goal - "learn Free Udacity courses every day from basics"
+## Goal - "learn Free Udacity courses"
 
 ## Course -  [Intro to HTML and CSS](https://www.udacity.com/course/intro-to-html-and-css--ud001)
 
