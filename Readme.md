@@ -32,6 +32,7 @@
   - sets
   - tuples
   - Dictonary
+- completed lesson 1.
 
 ### Day 5 (03/06/2018)
 
@@ -43,3 +44,10 @@
 
 - learned while loop.
 - completed the practice quiz.
+
+### Day 7 (05/06/2018)
+
+- learned continue,break usage.
+- learned zip, enumerate functions.
+- learned comprehensions.
+- completed lesson 2.
