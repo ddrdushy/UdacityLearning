@@ -51,3 +51,11 @@
 - learned zip, enumerate functions.
 - learned comprehensions.
 - completed lesson 2.
+
+### Day 8 (06/06/2018)
+
+- learned functions.
+- learned variable scopes.
+- learned lambda expressions.
+- learned iterators and generators.
+- completed lesson 3.
