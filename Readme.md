@@ -59,3 +59,9 @@
 - learned lambda expressions.
 - learned iterators and generators.
 - completed lesson 3.
+
+### Day 9 (08/06/2018)
+
+- Python development environment setup.
+- learned to get input from user.
+- did simple python codes.
