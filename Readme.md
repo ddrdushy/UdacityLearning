@@ -65,3 +65,15 @@
 - Python development environment setup.
 - learned to get input from user.
 - did simple python codes.
+
+### Day 10 (09/06/2018)
+
+- Completed few exercise in FCC.
+
+### Day 11 (10/06/2018)
+
+- Learned exception handling.
+- Learned to handle files.
+- Learned to import modules.
+- Learned to use python standard libraries.
+- completed the python introduction course.
