@@ -77,3 +77,10 @@
 - Learned to import modules.
 - Learned to use python standard libraries.
 - completed the python introduction course.
+
+## Course -  [Programming Foundations with Python](https://www.udacity.com/course/programming-foundations-with-python--ud036)
+
+### Day 12 (11/06/2018)
+
+- Course Introduction.
+- Completed Lesson 1 in new course.
