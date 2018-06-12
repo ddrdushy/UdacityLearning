@@ -84,3 +84,7 @@
 
 - Course Introduction.
 - Completed Lesson 1 in new course.
+
+### Day 13 (12/06/2018)
+
+- Created a simple program helps you to take a break from your computer screen by openinng your favourite youtube video.
