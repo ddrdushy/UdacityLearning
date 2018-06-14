@@ -88,9 +88,9 @@
 ### Day 13 (12/06/2018)
 
 - Created a simple program helps you to take a break from your computer screen by openinng your favourite youtube video.
-- [take_a_break]("https://github.com/ddrdushy/UdacityLearning/tree/master/Files/12_06_2018/")
+- [take_a_break](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/12_06_2018/)
 
 ### Day 14 (13/06/2018)
 
-- created [secret_message]("https://github.com/ddrdushy/UdacityLearning/tree/master/Files/13_06_2018/") program.
+- created [secret_message](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/13_06_2018/) program.
 - completed lesson 2.
