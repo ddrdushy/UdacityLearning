@@ -94,3 +94,11 @@
 
 - created [secret_message](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/13_06_2018/) program.
 - completed lesson 2.
+
+### Day 15 (14/06/2018)
+
+- Created the [drawRectangle](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/14_06_2018) programe.
+- Completed lesson 3.
+- Understand classes and objects in python.
+- Created [send_sms](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/14_06_2018) project using twilo.
+- Completed lesson 4.
