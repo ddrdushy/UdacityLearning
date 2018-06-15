@@ -102,3 +102,8 @@
 - Understand classes and objects in python.
 - Created [send_sms](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/14_06_2018) project using twilo.
 - Completed lesson 4.
+
+### Day 16 (15/06/2018)
+
+- Created the [Profanity_checker](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/15_06_2018) programe.
+- Completed lesson 5.
