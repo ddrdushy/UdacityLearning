@@ -107,3 +107,6 @@
 
 - Created the [Profanity_checker](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/15_06_2018) programe.
 - Completed lesson 5.
+- Learned OOP concepts like class, object, constructor etc.
+- Created [movies website](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/15_06_2018/movies/) project.
+- Completed lesson 6.
