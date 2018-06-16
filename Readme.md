@@ -110,3 +110,11 @@
 - Learned OOP concepts like class, object, constructor etc.
 - Created [movies website](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/15_06_2018/movies/) project.
 - Completed lesson 6.
+
+### Day 17 (16/06/2018)
+
+- Understandig class variables.
+- Understanding inheritance.
+- Learned method overriding.
+- Completed lesson 7.
+- Course completed.
