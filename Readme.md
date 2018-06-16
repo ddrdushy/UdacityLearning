@@ -118,3 +118,8 @@
 - Learned method overriding.
 - Completed lesson 7.
 - Course completed.
+
+## Course -  [Intro to Computer Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
+
+- Learned basic programming fundamentals like expressions, variables.
+- Took the initial step to build a search engine.
