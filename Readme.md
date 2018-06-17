@@ -116,7 +116,7 @@
 - Understandig class variables.
 - Understanding inheritance.
 - Learned method overriding.
-- Completed lesson 7.
+- Completed [lesson 7.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/16_06_2018/)
 - Course completed.
 
 ## Course -  [Intro to Computer Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
@@ -124,3 +124,8 @@
 - Learned basic programming fundamentals like expressions, variables.
 - Took the initial step to build a search engine.
 - Completed lesson 1.
+
+### Day 18 (17/06/2018)
+
+- [Solved problems.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/17_06_2018/)
+- Completed Lesson 2,3,4,5,6,7.
