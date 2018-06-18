@@ -129,3 +129,7 @@
 
 - [Solved problems.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/17_06_2018/)
 - Completed Lesson 2,3,4,5,6,7.
+
+### Day 19 (18/06/2018)
+
+- Learning to approch a problem in python way by using the TDD approch.
