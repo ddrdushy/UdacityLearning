@@ -132,4 +132,4 @@
 
 ### Day 19 (18/06/2018)
 
-- Learning to approch a problem in python way by using the TDD approch.
+- Learning to approch a complex problem in python.
