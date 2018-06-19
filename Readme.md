@@ -133,3 +133,8 @@
 ### Day 19 (18/06/2018)
 
 - Learning to approch a complex problem in python.
+
+### Day 20 (19/06/2018)
+
+- Completed [DaysBetweenDays](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/18_06_2018-19_06_2018/) problem using simple TDD approch.
+- Completed lesson 8,9,10.
