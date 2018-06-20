@@ -138,3 +138,9 @@
 
 - Completed [DaysBetweenDays](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/18_06_2018-19_06_2018/) problem using simple TDD approch.
 - Completed lesson 8,9,10.
+
+### Day 21 (20/06/2018)
+
+- Learned about lists and list functions.
+- Completed the [webcrawler.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/20_06_2018/)
+- Completed lesson 11.
