@@ -144,3 +144,10 @@
 - Learned about lists and list functions.
 - Completed the [webcrawler.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/20_06_2018/)
 - Completed lesson 11.
+
+### Day 22 (21/06/2018)
+
+- Solved problem set.
+- Completed lesson 12,13,14.
+- Created new data structure for index.
+- Completed the [webcrawler](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/21_06_2018/) with indexing.
