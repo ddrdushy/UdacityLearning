@@ -151,3 +151,8 @@
 - Completed lesson 12,13,14.
 - Created new data structure for index.
 - Completed the [webcrawler](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/21_06_2018/) with indexing.
+
+### Day 23 (22/06/2018)
+
+- Learned about internet.
+- Completed lesson 15.
