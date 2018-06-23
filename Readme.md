@@ -156,3 +156,9 @@
 
 - Learned about internet.
 - Completed lesson 15.
+
+### Day 24 (23/06/2018)
+
+- Solved [problem sets.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/23_06_2018/) 
+- Completed lesson 16,17,18.
+- Learned hash data structure.
