@@ -159,6 +159,11 @@
 
 ### Day 24 (23/06/2018)
 
-- Solved [problem sets.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/23_06_2018/) 
+- Solved [problem sets.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/23_06_2018/)
 - Completed lesson 16,17,18.
 - Learned hash data structure.
+
+### Day 25 (24/06/2018)
+
+- Learned more about hash tables.
+- updated the code for [hash table.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/24_06_2018/) 
