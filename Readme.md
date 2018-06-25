@@ -167,3 +167,7 @@
 
 - Learned more about hash tables.
 - updated the code for [hash table.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/24_06_2018/) 
+
+### Day 26 (25/06/2018)
+
+- Learning Dictionary.
