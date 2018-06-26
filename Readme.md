@@ -171,3 +171,7 @@
 ### Day 26 (25/06/2018)
 
 - Learning Dictionary.
+
+### Day 27 (26/06/2018)
+
+- Learned ABBY OCR (out of scope :P)
