@@ -174,4 +174,8 @@
 
 ### Day 27 (26/06/2018)
 
-- Learned ABBY OCR (out of scope :P)
+- Learned ABBY OCR (out of scope :P )
+
+### Day 28 (27/06/2018)
+
+- 
