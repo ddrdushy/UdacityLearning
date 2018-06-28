@@ -166,7 +166,7 @@
 ### Day 25 (24/06/2018)
 
 - Learned more about hash tables.
-- updated the code for [hash table.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/24_06_2018/) 
+- updated the code for [hash table.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/24_06_2018/)
 
 ### Day 26 (25/06/2018)
 
@@ -177,5 +177,11 @@
 - Learned ABBY OCR (out of scope :P )
 
 ### Day 28 (27/06/2018)
+
+- Updated the crawler with Dictionary data structure.
+- Completed Lesson 18.
+- Solving problem set.
+
+### Day 29 (28/06/2018)
 
 - 
