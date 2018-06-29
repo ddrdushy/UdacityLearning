@@ -190,4 +190,4 @@
 ### Day 30 (29/06/2018)
 
 - Learned recursive function.
-- Wrote palindrome and fibonacci series using recursive functions.
+- Wrote [palindrome](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/29_06_2018/)and [fibonacci series](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/29_06_2018/) using recursive functions.
