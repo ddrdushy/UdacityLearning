@@ -174,7 +174,7 @@
 
 ### Day 27 (26/06/2018)
 
-- Learned ABBY OCR (out of scope :P )
+- Learned ABBY OCR (out of scope :stuck_out_tongue: )
 
 ### Day 28 (27/06/2018)
 
@@ -184,5 +184,10 @@
 
 ### Day 29 (28/06/2018)
 
-- Completed UiPath Certification (out of scope :P )
+- Completed UiPath Certification (out of scope :stuck_out_tongue: )
 - Understanding recursive function.
+
+### Day 30 (29/06/2018)
+
+- Learned recursive function.
+- Wrote palindrome and fibonacci series using recursive functions.
