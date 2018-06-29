@@ -184,4 +184,5 @@
 
 ### Day 29 (28/06/2018)
 
-- 
+- Completed UiPath Certification (out of scope :P )
+- Understanding recursive function.
