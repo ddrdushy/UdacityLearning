@@ -191,3 +191,7 @@
 
 - Learned recursive function.
 - Wrote [palindrome](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/29_06_2018/)and [fibonacci series](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/29_06_2018/) using recursive functions.
+
+### Day 31 (30/06/2018)
+
+- Created [fibonacci](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/30_06_2018/) problem with loop.
