@@ -195,3 +195,8 @@
 ### Day 31 (30/06/2018)
 
 - Created [fibonacci](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/30_06_2018/) problem with loop.
+
+### Day 32 (01/07/2018)
+
+- Completed lesson 22.
+- Completed the [Search Engine](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/01_07_2018/)
