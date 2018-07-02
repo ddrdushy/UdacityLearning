@@ -119,7 +119,7 @@
 - Completed [lesson 7.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/16_06_2018/)
 - Course completed.
 
-## Course -  [Intro to Computer Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
+## Course CS101 -  [Intro to Computer Science](https://www.udacity.com/course/intro-to-computer-science--cs101)
 
 - Learned basic programming fundamentals like expressions, variables.
 - Took the initial step to build a search engine.
@@ -200,3 +200,11 @@
 
 - Completed lesson 22.
 - Completed the [Search Engine](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/01_07_2018/)
+
+## Course CS215 -  [Intro to Algorithms](https://www.udacity.com/course/intro-to-algorithms--cs215))
+
+### Day 33 (02/07/2018)
+
+- Created [naive](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/02_07_2018/naive.py), [russian peasants](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/02_07_2018/russian.py) algorithms.
+- Learned to measure the execution time of a simple algorithm.
+- Learned to calculate the correctness of an algorithm.
