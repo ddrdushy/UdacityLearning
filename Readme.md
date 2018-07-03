@@ -208,3 +208,8 @@
 - Created [naive](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/02_07_2018/naive.py), [russian peasants](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/02_07_2018/russian.py) algorithms.
 - Learned to measure the execution time of a simple algorithm.
 - Learned to calculate the correctness of an algorithm.
+
+### Day 34 (03/07/2018)
+
+- Solving problem set.
+- Created [graph.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/03_07_2018/graph.py)
