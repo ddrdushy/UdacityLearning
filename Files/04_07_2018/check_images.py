@@ -34,7 +34,7 @@ from print_functions_for_lab_checks import *
 def main():
     # TODO: 1. Define start_time to measure total program runtime by
     # collecting start time
-    start_time = None
+    start_time = time.clock()
     
     # TODO: 2. Define get_input_args() function to create & retrieve command
     # line arguments
@@ -98,7 +98,12 @@ def get_input_args():
     Returns:
      parse_args() -data structure that stores the command line arguments object  
     """
-    pass
+    parser = argparse.ArgumentParser(description="Image classification arguments")
+    parser.add_argument("dir",type="String", const="pet_images/", help="Path to the pet image files")
+    parser.add_argument("arch",type="String", const="vgg", help="CNN model architecture to use for image classification(default vgg)")
+    parser.add_argument("dogfile",type="String", const="dognames.txt", help="Text file that contains all labels associated to dogs(default-'dognames.txt'")
+    args = parser.parse_args()
+    return args
 
 
 def get_pet_labels():
