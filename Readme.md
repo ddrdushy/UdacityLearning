@@ -201,7 +201,7 @@
 - Completed lesson 22.
 - Completed the [Search Engine](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/01_07_2018/)
 
-## Course CS215 -  [Intro to Algorithms](https://www.udacity.com/course/intro-to-algorithms--cs215))
+## Course CS215 -  [Intro to Algorithms](https://www.udacity.com/course/intro-to-algorithms--cs215)
 
 ### Day 33 (02/07/2018)
 
@@ -213,3 +213,10 @@
 
 - Solving problem set.
 - Created [graph.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/03_07_2018/graph.py)
+
+## Course [AI Programming with Python Nanodegree Program](https://www.udacity.com/course/ai-programming-python-nanodegree--nd089)
+
+### Day 35 (04/07/2018)
+
+- Re-collecting python and understanding the lab workspace.
+- Started [classifiying images lab.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/04_07_2018/)
