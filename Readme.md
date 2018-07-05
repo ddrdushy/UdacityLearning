@@ -220,3 +220,8 @@
 
 - Re-collecting python and understanding the lab workspace.
 - Started [classifiying images lab.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/04_07_2018/)
+
+### Day 36 (05/07/2018)
+
+- Setup working enviornment in PC for Image classifier project.
+- Completed Task-1 in project.
