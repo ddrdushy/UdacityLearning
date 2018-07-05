@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # */AIPND/intropylab-classifying-images/check_images.py
 #                                                                             
-# TODO: 0. Fill in your information in the programming header below
+# TODO: 1. Fill in your information in the programming header below
 # PROGRAMMER: R.Dushyanth
 # DATE CREATED: 07/04/2018
 # REVISED DATE:             <=(Date Revised - if any)
@@ -34,7 +34,7 @@ from print_functions_for_lab_checks import *
 def main():
     # TODO: 1. Define start_time to measure total program runtime by
     # collecting start time
-    start_time = time.clock()
+    start_time = time()
     
     # TODO: 2. Define get_input_args() function to create & retrieve command
     # line arguments
@@ -67,11 +67,12 @@ def main():
 
     # TODO: 1. Define end_time to measure total program runtime
     # by collecting end time
-    end_time = None
+    sleep(75)
+    end_time = time()
 
     # TODO: 1. Define tot_time to computes overall runtime in
     # seconds & prints it in hh:mm:ss format
-    tot_time = None
+    tot_time = end_time - start_time
     print("\n** Total Elapsed Runtime:", tot_time)
 
 
@@ -97,13 +98,15 @@ def get_input_args():
      None - simply using argparse module to create & store command line arguments
     Returns:
      parse_args() -data structure that stores the command line arguments object  
-    """
+    
     parser = argparse.ArgumentParser(description="Image classification arguments")
     parser.add_argument("dir",type="String", const="pet_images/", help="Path to the pet image files")
     parser.add_argument("arch",type="String", const="vgg", help="CNN model architecture to use for image classification(default vgg)")
     parser.add_argument("dogfile",type="String", const="dognames.txt", help="Text file that contains all labels associated to dogs(default-'dognames.txt'")
     args = parser.parse_args()
     return args
+    """
+    pass
 
 
 def get_pet_labels():
@@ -119,6 +122,7 @@ def get_pet_labels():
      petlabels_dic - Dictionary storing image filename (as key) and Pet Image
                      Labels (as value)  
     """
+
     pass
 
 
