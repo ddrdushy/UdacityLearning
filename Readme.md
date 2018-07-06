@@ -225,3 +225,7 @@
 
 - Setup working enviornment in PC for Image classifier project.
 - Completed Task-1 in project.
+
+### Day 37 (06/07/2018)
+
+- Completed Task-2 and Task-3 in project.
