@@ -67,7 +67,6 @@ def main():
 
     # TODO: 1. Define end_time to measure total program runtime
     # by collecting end time
-    sleep(75)
     end_time = time()
 
     # TODO: 1. Define tot_time to computes overall runtime in
@@ -98,15 +97,13 @@ def get_input_args():
      None - simply using argparse module to create & store command line arguments
     Returns:
      parse_args() -data structure that stores the command line arguments object  
-    
+     """
     parser = argparse.ArgumentParser(description="Image classification arguments")
-    parser.add_argument("dir",type="String", const="pet_images/", help="Path to the pet image files")
-    parser.add_argument("arch",type="String", const="vgg", help="CNN model architecture to use for image classification(default vgg)")
-    parser.add_argument("dogfile",type="String", const="dognames.txt", help="Text file that contains all labels associated to dogs(default-'dognames.txt'")
-    args = parser.parse_args()
-    return args
-    """
-    pass
+    parser.add_argument("--dir",type=str, default="pet_images/", help="Path to the pet image files")
+    parser.add_argument("--arch",type=str, default="vgg", help="CNN model architecture to use for image classification(default vgg)")
+    parser.add_argument("--dogfile",type=str, default="dognames.txt", help="Text file that contains all labels associated to dogs(default-'dognames.txt'")
+    
+    return parser.parse_args()
 
 
 def get_pet_labels():
