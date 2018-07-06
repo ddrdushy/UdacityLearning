@@ -43,8 +43,8 @@ def main():
     # TODO: 3. Define get_pet_labels() function to create pet image labels by
     # creating a dictionary with key=filename and value=file label to be used
     # to check the accuracy of the classifier function
-    answers_dic = get_pet_labels()
-
+    answers_dic = get_pet_labels(in_arg.dir)
+    
     # TODO: 4. Define classify_images() function to create the classifier 
     # labels with the classifier function uisng in_arg.arch, comparing the 
     # labels, and creating a dictionary of results (result_dic)
@@ -106,7 +106,7 @@ def get_input_args():
     return parser.parse_args()
 
 
-def get_pet_labels():
+def get_pet_labels(dir):
     """
     Creates a dictionary of pet labels based upon the filenames of the image 
     files. Reads in pet filenames and extracts the pet image labels from the 
@@ -119,9 +119,31 @@ def get_pet_labels():
      petlabels_dic - Dictionary storing image filename (as key) and Pet Image
                      Labels (as value)  
     """
+    pet_dic = dict()
+    filename_list = listdir(dir)
+    for file in filename_list:
+        if get_label(file) not in pet_dic:
+                pet_dic[file] = get_label(file)
+        else:
+                print(get_label(file) +" key already exsist")
+    return pet_dic
 
-    pass
+def get_label(image_filename):
+        # Sets string to lower case letters
+        low_pet_image = image_filename.lower()
+        # Splits lower case string by _ to break into words 
+        word_list_pet_image = image_filename.split("_")
+        # Create pet_name starting as empty string
+        pet_name = ""
+        # Loops to check if word in pet name is only
+        # alphabetic characters - if true append word
+        # to pet_name separated by trailing space 
+        for word in word_list_pet_image:
+                if word.isalpha():
+                        pet_name += word + " "
 
+        # Strip off starting/trailing whitespace characters 
+        return pet_name.strip().lower()
 
 def classify_images():
     """
