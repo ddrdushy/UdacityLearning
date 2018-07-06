@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # */AIPND/intropylab-classifying-images/check_images.py
 #                                                                             
-# TODO: 1. Fill in your information in the programming header below
+# TODO: 3. Fill in your information in the programming header below
 # PROGRAMMER: R.Dushyanth
 # DATE CREATED: 07/04/2018
 # REVISED DATE:             <=(Date Revised - if any)
@@ -44,7 +44,7 @@ def main():
     # creating a dictionary with key=filename and value=file label to be used
     # to check the accuracy of the classifier function
     answers_dic = get_pet_labels(in_arg.dir)
-    
+
     # TODO: 4. Define classify_images() function to create the classifier 
     # labels with the classifier function uisng in_arg.arch, comparing the 
     # labels, and creating a dictionary of results (result_dic)
