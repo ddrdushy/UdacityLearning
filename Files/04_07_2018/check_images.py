@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # */AIPND/intropylab-classifying-images/check_images.py
 #                                                                             
-# TODO: 3. Fill in your information in the programming header below
+# TODO: 4. Fill in your information in the programming header below
 # PROGRAMMER: R.Dushyanth
 # DATE CREATED: 07/04/2018
 # REVISED DATE:             <=(Date Revised - if any)
@@ -44,11 +44,11 @@ def main():
     # creating a dictionary with key=filename and value=file label to be used
     # to check the accuracy of the classifier function
     answers_dic = get_pet_labels(in_arg.dir)
-
+    
     # TODO: 4. Define classify_images() function to create the classifier 
     # labels with the classifier function uisng in_arg.arch, comparing the 
     # labels, and creating a dictionary of results (result_dic)
-    result_dic = classify_images()
+    result_dic = classify_images(in_arg.dir, answers_dic, in_arg.arch)
     
     # TODO: 5. Define adjust_results4_isadog() function to adjust the results
     # dictionary(result_dic) to determine if classifier correctly classified
@@ -145,7 +145,7 @@ def get_label(image_filename):
         # Strip off starting/trailing whitespace characters 
         return pet_name.strip().lower()
 
-def classify_images():
+def classify_images(images_dir,petlabel_dic,model):
     """
     Creates classifier labels with classifier function, compares labels, and 
     creates a dictionary containing both labels and comparison of them to be
@@ -170,6 +170,19 @@ def classify_images():
                     idx 2 = 1/0 (int)   where 1 = match between pet image and 
                     classifer labels and 0 = no match between labels
     """
+    result_dic = dict()
+
+    for key in petlabel_dic:
+            model_label = classifier(images_dir+key, model)
+            print (key)
+            model_label = model_label.lower().strip()
+
+            truth = petlabel_dic[key]
+            found = model_label.find(truth)
+
+            print (found)
+            if found >= 0:
+                    
     pass
 
 
