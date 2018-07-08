@@ -50,6 +50,23 @@ def main():
     # labels, and creating a dictionary of results (result_dic)
     result_dic = classify_images(in_arg.dir, answers_dic, in_arg.arch)
     
+    # test result dic
+    print ("\n Match:")    
+    n_match = 0
+    n_nmatch = 0
+
+    for key in result_dic:
+            if(result_dic[key][2] == 1):
+                    n_match += 1
+                    print("Real: %-26s    Classifier: %-30s" % (result_dic[key][0], result_dic[key][1]))
+
+    print("\n not match:")
+    for key in result_dic:
+            if(result_dic[key][2] == 0):
+                    n_nmatch += 1
+                    print("Real: %-26s    Classifier: %-30s" % (result_dic[key][0], result_dic[key][1]))
+
+    print ("\# Total Images ",n_match+n_nmatch," # Matches: ",n_match," # not match: ",n_nmatch)
     # TODO: 5. Define adjust_results4_isadog() function to adjust the results
     # dictionary(result_dic) to determine if classifier correctly classified
     # images as 'a dog' or 'not a dog'. This demonstrates if the model can
@@ -174,16 +191,25 @@ def classify_images(images_dir,petlabel_dic,model):
 
     for key in petlabel_dic:
             model_label = classifier(images_dir+key, model)
-            print (key)
+
             model_label = model_label.lower().strip()
 
             truth = petlabel_dic[key]
             found = model_label.find(truth)
 
-            print (found)
+
             if found >= 0:
-                    
-    pass
+                if ( (found == 0 and len(truth) == len(model_label)) or ((found == 0 or model_label[found-1] == " ") )) and (found+len(truth) == len(model_label) or (model_label[found+len(truth):found+len(truth)+1] in (","," "))) :
+                        if key not in result_dic:
+                                result_dic[key] = [truth, model_label, 1]
+                else:
+                        if key not in result_dic:
+                                result_dic[key] = [truth, model_label, 0]
+            else:
+                if key not in result_dic:
+                                result_dic[key] = [truth, model_label, 0]
+                                
+    return result_dic
 
 
 def adjust_results4_isadog():
