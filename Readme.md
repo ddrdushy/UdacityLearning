@@ -233,3 +233,7 @@
 ### Day 38 (07/07/2018)
 
 - Working on Task-4.
+
+### Day 39 (08/07/2018)
+
+- Completed task-4.
