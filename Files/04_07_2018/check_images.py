@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # */AIPND/intropylab-classifying-images/check_images.py
 #                                                                             
-# TODO: 4. Fill in your information in the programming header below
+# TODO: 6. Fill in your information in the programming header below
 # PROGRAMMER: R.Dushyanth
 # DATE CREATED: 07/04/2018
 # REVISED DATE:             <=(Date Revised - if any)
@@ -71,8 +71,27 @@ def main():
     # dictionary(result_dic) to determine if classifier correctly classified
     # images as 'a dog' or 'not a dog'. This demonstrates if the model can
     # correctly classify dog images as dogs (regardless of breed)
-    adjust_results4_isadog()
+    adjust_results4_isadog(result_dic, in_arg.dogfile)
 
+    print("\n Match:")
+    n_match = 0
+    n_nmatch = 0
+
+    for key in result_dic:
+            if(result_dic[key][2] == 1):
+                    n_match += 1
+                    print("Real: %-26s    Classifier: %-30s   petLabelDog: %1d   ClassLabelDog: %1d" %
+                          (result_dic[key][0], result_dic[key][1], result_dic[key][3], result_dic[key][4]))
+
+    print("\n not match:")
+    for key in result_dic:
+            if(result_dic[key][2] == 0):
+                    n_nmatch += 1
+                    print("Real: %-26s    Classifier: %-30s   petLabelDog: %1d   ClassLabelDog: %1d" %
+                          (result_dic[key][0], result_dic[key][1], result_dic[key][3], result_dic[key][4]))
+
+    print("\# Total Images ", n_match+n_nmatch,
+          " # Matches: ", n_match, " # not match: ", n_nmatch)
     # TODO: 6. Define calculates_results_stats() function to calculate
     # results of run and puts statistics in a results statistics
     # dictionary (results_stats_dic)
@@ -121,7 +140,6 @@ def get_input_args():
     parser.add_argument("--dogfile",type=str, default="dognames.txt", help="Text file that contains all labels associated to dogs(default-'dognames.txt'")
     
     return parser.parse_args()
-
 
 def get_pet_labels(dir):
     """
@@ -211,8 +229,7 @@ def classify_images(images_dir,petlabel_dic,model):
                                 
     return result_dic
 
-
-def adjust_results4_isadog():
+def adjust_results4_isadog(results_dic, dogsfile):
     """
     Adjusts the results dictionary to determine if classifier correctly 
     classified images 'as a dog' or 'not a dog' especially when not a match. 
@@ -240,10 +257,35 @@ def adjust_results4_isadog():
     Returns:
            None - results_dic is mutable data type so no return needed.
     """           
-    pass
+    dognames_dict = dict()
 
+    with open(dogsfile,"r") as infile:
+            line = infile.readline()
 
-def calculates_results_stats():
+            while (line!= ""):
+                    line = line.rstrip()
+
+                    if line not in dognames_dict:
+                            dognames_dict[line] = 1
+                    else:
+                            print("warning : Duplicate dog names")
+
+                    line = infile.readline()
+    
+    for key in results_dic:
+            if results_dic[key][0] in dognames_dict:
+                    if results_dic[key][1] in dognames_dict:
+                            results_dic[key].extend((1,1))
+
+                    else:
+                            results_dic[key].extend((1,0))
+            else:
+                    if results_dic[key][1] in dognames_dict:
+                            results_dic[key].extend((0,1))
+                    else:
+                            results_dic[key].extend((0,0))
+
+def calculates_results_stats(results_dic):
     """
     Calculates statistics of the results of the run using classifier's model 
     architecture on classifying images. Then puts the results statistics in a 
@@ -267,8 +309,44 @@ def calculates_results_stats():
                      name (starting with 'pct' for percentage or 'n' for count)
                      and the value is the statistic's value 
     """
-    pass
+    results_stats = dict()
+    
+    Number_of_images = len(results_dic)
 
+    results_stats["n_dogs_img"] = 0
+    results_stats["n_match"] = 0
+    results_stats["n_correct_dogs"] = 0
+    results_stats["n_correct_notdogs"] = 0
+    results_stats["n_correct_breed"] = 0
+    
+
+    for key in results_dic:
+            if results_dic[key][2] == 1:
+                    results_stats["n_match"] += 1
+            if sum(results_dic[key][2:]) == 3:
+                    results_stats["n_correct_breed"] += 1
+
+            if results_dic[key][3] == 1:
+                    results_stats["n_dogs_img"] += 1
+
+                    if results_dic[key][4] == 1:
+                            results_stats["n_correct_dogs"] += 1
+            else:
+                    if results_dic[key][4] == 0:
+                            results_stats["n_correct_notdogs"] += 1
+                        
+    results_stats["n_images"] = len(results_dic)
+    results_stats["n_notdogs_images"] = results_stats["n_images"] - results_stats["n_dogs_img"]
+    results_stats["pct_match"] = (results_stats["n_match"] / results_stats["n_images"]) * 100
+    results_stats["pct_correct_dogs"] = (results_stats["n_correct_dogs"] / results_stats["n_dogs_img"]) * 100
+    results_stats["pct_correct_breed"] = (results_stats["n_correct_breed"] / results_stats["n_dogs_img"]) * 100
+
+    if results_stats["n_dogs_img"] > 0 :
+            results_stats["pct_correct_notdogs"] = (results_stats["n_correct_notdogs"] / results_stats["n_notdogs_images"]) * 100 
+    else:
+            results_stats["pct_correct_notdogs"] = 0.0
+            
+    return results_stats
 
 def print_results():
     """
