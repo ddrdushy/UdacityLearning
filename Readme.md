@@ -237,3 +237,7 @@
 ### Day 39 (08/07/2018)
 
 - Completed task-4.
+
+### Day 40 (09/07/2018)
+
+- Completed Task - 5, Task - 6.
