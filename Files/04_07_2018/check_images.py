@@ -95,8 +95,11 @@ def main():
     # TODO: 6. Define calculates_results_stats() function to calculate
     # results of run and puts statistics in a results statistics
     # dictionary (results_stats_dic)
-    results_stats_dic = calculates_results_stats()
+    results_stats_dic = calculates_results_stats(result_dic)
 
+    print("Funnction statistics:\n")
+    print("N images: %2d N dog images %2d N not dog images %2d \npct corr dogs %5.1f pct corr not dogs %5.1f pct correct breed %5.1f" % (results_stats_dic["n_images"], results_stats_dic["n_dogs_img"], results_stats_dic["n_notdogs_images"],
+             results_stats_dic["pct_correct_dogs"], results_stats_dic["pct_correct_notdogs"], results_stats_dic["pct_correct_breed"]))
     # TODO: 7. Define print_results() function to print summary results, 
     # incorrect classifications of dogs and breeds if requested.
     print_results()
