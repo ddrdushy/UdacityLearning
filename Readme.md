@@ -238,6 +238,10 @@
 
 - Completed task-4.
 
-### Day 40 (09/07/2018)
+### Day 40 (10/07/2018)
 
 - Completed Task - 5, Task - 6.
+
+### Day 41 (11/07/2018)
+
+- Completed [lab.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/04_07_2018/)
