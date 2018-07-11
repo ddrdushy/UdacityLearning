@@ -28,7 +28,7 @@ from os import listdir
 from classifier import classifier 
 
 # Imports print functions that check the lab
-from print_functions_for_lab_checks import *
+# from print_functions_for_lab_checks import *
 
 # Main program function defined below
 def main():
@@ -167,8 +167,7 @@ def get_pet_labels(dir):
     return pet_dic
 
 def get_label(image_filename):
-        # Sets string to lower case letters
-        low_pet_image = image_filename.lower()
+        
         # Splits lower case string by _ to break into words 
         word_list_pet_image = image_filename.split("_")
         # Create pet_name starting as empty string
@@ -314,8 +313,6 @@ def calculates_results_stats(results_dic):
     """
     results_stats = dict()
     
-    Number_of_images = len(results_dic)
-
     results_stats["n_dogs_img"] = 0
     results_stats["n_match"] = 0
     results_stats["n_correct_dogs"] = 0
