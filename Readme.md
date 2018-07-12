@@ -245,3 +245,15 @@
 ### Day 41 (11/07/2018)
 
 - Completed [lab.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/04_07_2018/)
+
+### Day 42 (12/07/2018)
+
+- Learned Conda commands
+  - `conda create`
+  - `activate/deactivate`
+  - `conda list`
+  - `conda install`
+  - `conda env export > environment.yaml`
+  - `conda env create -f environment.yaml`
+  - `conda env remove -n env_name`
+  - `pip freeze > requirements.txt`
