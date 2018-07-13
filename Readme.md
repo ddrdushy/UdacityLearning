@@ -257,3 +257,7 @@
   - `conda env create -f environment.yaml`
   - `conda env remove -n env_name`
   - `pip freeze > requirements.txt`
+
+### Day 43 (13/07/2018)
+
+- Learning Jupyter notebooks.
