@@ -261,3 +261,7 @@
 ### Day 43 (13/07/2018)
 
 - Learning Jupyter notebooks.
+
+### Day 44 (14/07/2018)
+
+- Completed Jupyter notebooks.
