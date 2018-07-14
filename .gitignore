@@ -1,3 +1,4 @@
 **/*.pyc
+**/.ipynb_checkpoints
 Files/15_06_2018/movies/*.html
 Files/16_06_2018/movies/*.html
