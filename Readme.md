@@ -265,3 +265,23 @@
 ### Day 44 (14/07/2018)
 
 - Completed Jupyter notebooks.
+
+### Day 45 (15/07/2018)
+
+- Started numpy.
+
+### Day 46 (16/07/2018)
+
+- Learned to [create](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/12_07_2018/numpyTest.ipynb) `ndArray`.
+- Learned usefull [NumPy funnctions.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/12_07_2018/NumpyExercise2.ipynb)
+  - np.zeros()
+  - np.ones()
+  - np.full()
+  - np.eye()
+  - np.diag()
+  - np.arange()
+  - np.linspace()
+  - np.reshape()
+  - np.random.random()
+  - np.random.randint()
+  - np.random.normal()
