@@ -285,3 +285,13 @@
   - np.random.random()
   - np.random.randint()
   - np.random.normal()
+
+### Day 47 (17/07/2018)
+
+- Learned [array functions.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/12_07_2018/NumPyExercise3.ipynb)
+  - Accessing array elements.
+  - Modify array values.
+  - Delete array values.
+  - Append array values.
+  - Insert values to array.
+  - `vstack` and `hstack`.
