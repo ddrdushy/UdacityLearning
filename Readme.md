@@ -295,3 +295,11 @@
   - Append array values.
   - Insert values to array.
   - `vstack` and `hstack`.
+
+### Day 48 (18/07/2018)
+
+- Learned [nd array slicinng.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/12_07_2018/NumPyExercise4.ipynb)
+  - nd array slicing using index.
+  - `np.copy()`
+  - `np.diag()`
+  - `np.unique()`
