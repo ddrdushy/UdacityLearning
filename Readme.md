@@ -303,3 +303,18 @@
   - `np.copy()`
   - `np.diag()`
   - `np.unique()`
+
+### Day 49 (06/08/2018)
+
+- Learned [boolean operations, set functions and sorting.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/12_07_2018/NumPyExercise5.ipynb)
+  - Boolean indexing (`x[x>10]`)
+  - Set funnctions
+    - `np.intersect1d(x, y)`
+    - `np.setdiff1d(x, y)`
+    - `np.union1d(x, y)`
+  - Sort Functions
+    - `np.sort(x)`
+    - `np.sort(x,axis=0)`
+    - `np.sort(x,axis=1)`
+
+- Learned [Arithmetic operations and numpy broadcasting functions.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/12_07_2018/NumPyExercise6.ipynb)
