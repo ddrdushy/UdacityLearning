@@ -318,3 +318,8 @@
     - `np.sort(x,axis=1)`
 
 - Learned [Arithmetic operations and numpy broadcasting functions.](https://github.com/ddrdushy/UdacityLearning/tree/master/Files/12_07_2018/NumPyExercise6.ipynb)
+
+### Day 50 (15/08/2018)
+
+- Completed Numpy.
+- Completed the [miniproject](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/12_07_2018/Mean%20Normalization%20and%20Data%20Separation.ipynb) in Numpy
