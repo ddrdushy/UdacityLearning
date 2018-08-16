@@ -323,3 +323,24 @@
 
 - Completed Numpy.
 - Completed the [miniproject](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/12_07_2018/Mean%20Normalization%20and%20Data%20Separation.ipynb) in Numpy
+
+### Day 51 (16/08/2018)
+
+- Learning Pandas.
+- Learned Panda Series datatype.
+- Learned [pandas functions,](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/pandas/pandas.ipynb)
+  - create Series `pd.Series(data=[30, 6, 'Yes', 'No'], index=['eggs', 'apple', 'milk', 'bread'])`.
+  - get shape `groceries.shape`.
+  - get dimension `groceries.ndim`.
+  - get size `groceries.ndim`.
+  - get index `groceries.index`.
+  - get values `groceries.values`.
+  - check index in series `'banana' in groceries`.
+- Learned to access and modify the series elements,
+  - By index label - `groceries['bread'], groceries['bread','apple']`.
+  - By numerical indices - `groceries[-1], groceries[[1, 0, -1]]`.
+  - By `loc()` function - `groceries.loc[['eggs','apples']]`.
+  - By `iloc()` function - `groceries.iloc[[1,-1]]`.
+  - change values of the element - `groceries['eggs'] = 2`.
+  - remove element from series - `groceries.drop('apple',inplace=True)`.
+- [Arithmetic Operations on Pandas Series.](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/pandas/pandas2.ipynb)
