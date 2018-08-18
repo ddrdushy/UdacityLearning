@@ -344,3 +344,47 @@
   - change values of the element - `groceries['eggs'] = 2`.
   - remove element from series - `groceries.drop('apple',inplace=True)`.
 - [Arithmetic Operations on Pandas Series.](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/pandas/pandas2.ipynb)
+
+### Day 52 (18/08/2018)
+
+- [Learned to create pandas data frames.](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/pandas/pandas3.ipynb)
+  - ``` python
+    items = {
+      'Bob': pd.Series([245, 25, 55],index=['bike', 'pants', 'watch']),
+      'Alice': pd.Series([40, 110, 500, 45],index=['book', 'glassess', 'bike', 'pants'])
+    }
+    shopping_carts = pd.DataFrame(items)
+    shopping_carts
+    ```
+  - get the index of data frame `shopping_carts.index`.
+  - get the column names of data frame `shopping_carts.columns`.
+  - get the values of data frame `shopping_carts.values`.
+  - get the shape of data frame `shopping_carts.shape`.
+  - get the dimension of the data frame `shopping_carts.ndim`.
+  - get the size of data frame `shopping_carts.size`.
+  - create filtered data frame `alice_sel_shopping_cart =  pd.DataFrame(items, index=['glassess', 'bike'], columns=['Alice'])alice_sel_shopping_cart`.
+  - create custom index `stored_items = pd.DataFrame(items, index=['store 1', 'store 2'])`.
+
+- [Learned to accessing Elements in pandas data frames](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/pandas/pandas4.ipynb)
+  - access elements using index `stored_items[['bikes']]`.
+  - creating new columns with arithmetic operations `stored_items['suits'] = stored_items['shirts'] + stored_items['pants']`.
+  - insert new column `stored_items.insert(5, 'shoes',[8, 5, 0])`.
+  - remove columns using pop `stored_items.pop('new_watches')`.
+  - rename columns `stored_items = stored_items.rename(columns={'bikes':'hats'})`.
+  - set index to data frame `stored_items = stored_items.set_index('pants')`.
+
+- [Dealing with NaN values](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/pandas/pandas5.ipynb)
+  - get the count of NaN values `store_items.interpolate(method='linear', axis=0)`.
+  - remove NaN values `store_items.dropna(axis=1) #inplace = true will effect the actual dataframe`.
+  - fill NaN values with a value `store_items.fillna(0)`.
+  - fill NaN values with forward and backward values (ffill, bfill) `store_items.fillna(method='ffill', axis=0)`.
+  - fill NaN values with interpolation `store_items.interpolate(method='linear', axis=1)`.
+
+- [Loading Data into a Pandas DataFrame](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/pandas/pandas6.ipynb)
+  - Load data from csv `pd.read_csv('./goog-1.csv')`.
+  - list the top rows `google_stock.head()`.
+  - list the last lines `google_stock.tail()`.
+  - check for NaN values `google_stock.isnull().any()`.
+  - get the data description `google_stock['Adj Close'].describe()`.
+  - get the correlation of data `google_stock.corr()`
+  - groupby to group the data `data.groupby(['Year','Department'])['Salary'].sum()`.
