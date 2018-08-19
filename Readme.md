@@ -392,3 +392,5 @@
 ### Day 53 (19/08/2018)
 
 - [Completed pandas mini project.](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/pandas/StatisticsfromStockData.ipynb)
+- Started Matplotlib.
+- Learned to create [bar charts.](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/matplotlib/Matplotlib1.ipynb)
