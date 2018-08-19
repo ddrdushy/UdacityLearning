@@ -388,3 +388,7 @@
   - get the data description `google_stock['Adj Close'].describe()`.
   - get the correlation of data `google_stock.corr()`
   - groupby to group the data `data.groupby(['Year','Department'])['Salary'].sum()`.
+
+### Day 53 (19/08/2018)
+
+- [Completed pandas mini project.](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/pandas/StatisticsfromStockData.ipynb)
