@@ -393,4 +393,8 @@
 
 - [Completed pandas mini project.](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/pandas/StatisticsfromStockData.ipynb)
 - Started Matplotlib.
-- Learned to create [bar charts.](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/matplotlib/Matplotlib1.ipynb)
+- Learned to create [bar charts.](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/Matplotlib/Matplotlib1.ipynb)
+
+### Day 54 (20/08/2018)
+
+- Learned about [absolute and relative frequecy.](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/Matplotlib/Matplotlib1.ipynb)
