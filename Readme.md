@@ -398,3 +398,10 @@
 ### Day 54 (20/08/2018)
 
 - Learned about [absolute and relative frequecy.](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/Matplotlib/Matplotlib1.ipynb)
+
+### Day 55 (21/08/2018)
+
+- Learned to create [pie charts.](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/Matplotlib/Matplotlib1.ipynb)
+- Learned to create [histograms](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/Matplotlib/Histogram.ipynb)
+- Learned to identify the outliers from histogram and how to identify the data innterval values.
+- Learned to scales and transformations.
