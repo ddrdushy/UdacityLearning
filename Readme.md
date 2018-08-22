@@ -405,3 +405,32 @@
 - Learned to create [histograms](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/Matplotlib/Histogram.ipynb)
 - Learned to identify the outliers from histogram and how to identify the data innterval values.
 - Learned to scales and transformations.
+
+### Day 56 (22/08/2018)
+
+- Data Vizualization
+  - for quantitative variable, the common plot type is histogram.
+  - for qualitative variable, the common plot type is bar chart.
+  - completed DV for univarient vizualization.
+- Learned a glimpse of Kernel Density Estimation.
+
+- Bivarient vizualization.
+  - used to look at relationship.
+  - 3 major bivarient plot.
+    1. Scatter plots for quantitative variables vs. qualitative variables.
+    2. Violin plots for quantitative variables vs. qualitative variables.
+    3. Clustered bar charts for qualitative variables vs. quantitative variables.
+
+- [Scatter plot](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/Matplotlib/ScatterPlots.ipynb)
+  - Overplotting
+    - where a plot is created with too many overlapping points.
+    - resolve with
+      - Sampling - ploting few numbers of data.
+      - Transperecy - making point as transperent. 
+      - Jitter - adds a small amount of random noise to the position of each point.(used for discrete points).
+
+- [Heat maps or 2D histogram](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/Matplotlib/ScatterPlots.ipynb)
+  - for quantitative variables vs. quantitative variables.
+  - good for discrete variable vs discrete variable.
+  - good alternative to transperency for a lot of data.
+  - bin size is important.
