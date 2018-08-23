@@ -434,3 +434,9 @@
   - good for discrete variable vs discrete variable.
   - good alternative to transperency for a lot of data.
   - bin size is important.
+
+### Day 57 (23/08/2018)
+
+- [Violin plots](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/Matplotlib/ViolinPlots.ipynb)
+  - Violin plots for quantitative variable vs qualitative variable.
+- Learned about box plot.
