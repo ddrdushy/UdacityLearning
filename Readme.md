@@ -440,3 +440,8 @@
 - [Violin plots](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/Matplotlib/ViolinPlots.ipynb)
   - Violin plots for quantitative variable vs qualitative variable.
 - Learned about box plot.
+
+### Day 58 (25/08/2018)
+
+- [Clustered Bar charts](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/Matplotlib/ClusteredBarCharts.ipynb)
+  - for qualitative variable vs quantitative variable.
