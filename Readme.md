@@ -445,3 +445,13 @@
 
 - [Clustered Bar charts](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/Matplotlib/ClusteredBarCharts.ipynb)
   - for qualitative variable vs quantitative variable.
+
+### Day 59 (26/08/2018)
+
+- [Faceting Plots](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/Matplotlib/FacetingPlots.ipynb)
+  - multiple copies of the same type of plot visualized on different subsets of the data.
+- [Line Plots](https://github.com/ddrdushy/UdacityLearning/blob/master/Files/Matplotlib/FacetingPlots.ipynb)
+  - Ploting the relationship between two quantitative variable, one on each axis.
+  - Emphasize relative change.
+  - Emphasize trends across X-values.
+- completed data vizualization.
