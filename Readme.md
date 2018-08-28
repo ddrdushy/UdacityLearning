@@ -455,3 +455,10 @@
   - Emphasize relative change.
   - Emphasize trends across X-values.
 - completed data vizualization.
+
+### Day 60 (28/08/2018)
+
+- Linear algebra essential.
+- Learned about vectors.
+- Learned about vector addition and multiplication.
+  
