@@ -462,3 +462,6 @@
 - Learned about vectors.
 - Learned about vector addition and multiplication.
   
+### Day 61 (29/08/2018)
+
+- Learned linear combinations.
