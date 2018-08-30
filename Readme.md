@@ -465,3 +465,7 @@
 ### Day 61 (29/08/2018)
 
 - Learned linear combinations.
+
+### Day 62 (30/08/2018)
+
+- 
